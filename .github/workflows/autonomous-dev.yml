@@ -1,0 +1,303 @@
+name: Autonomous Research & Development
+
+on:
+  schedule:
+    - cron: '0 2 * * 3,6'  # 每週三、六凌晨 2:00 自動執行
+  workflow_dispatch:
+    inputs:
+      intensity:
+        description: '開發強度 (light/medium/heavy)'
+        required: false
+        default: 'medium'
+
+env:
+  PROJECT_NAME: three-kingdoms-map
+  REFERENCE_REPO: raybird/cap-map
+  NODE_VERSION: '20'
+
+jobs:
+  research:
+    name: 研究與規劃
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 分析目前進度
+        run: |
+          echo "=== 目前專案狀態 ==="
+          find . -type f -name "*.ts" -o -name "*.json" -o -name "*.md" 2>/dev/null | head -50
+          echo "=== Git 歷史 ==="
+          git log --oneline -10
+
+      - name: 研究 cap-map 參考實作
+        run: |
+          echo "=== 研究 cap-map 架構 ==="
+          curl -s https://api.github.com/repos/${{ env.REFERENCE_REPO }}/contents/ | jq -r '.[].name'
+
+      - name: 比對功能缺口
+        run: |
+          echo "=== 功能缺口分析 ==="
+          echo "cap-map 有但 three-kingdoms-map 缺少："
+          echo "- events.json 資料集"
+          echo "- timeline.json 分期定義"
+          echo "- Angular NgRx Store 實作"
+          echo "- Leaflet 地圖整合"
+          echo "- 事件詳情側邊欄"
+          echo "- 自動解題測驗"
+
+  develop:
+    name: 開發實作
+    needs: research
+    runs-on: ubuntu-latest
+    if: github.event.inputs.intensity != 'light'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: 建立基本結構
+        run: |
+          mkdir -p webapp/src/app/{store,services,components}
+          mkdir -p webapp/src/assets/data
+          mkdir -p webapp/public/assets/data
+
+      - name: 建立事件資料框架
+        run: |
+          cat > webapp/src/assets/data/events.json << 'EOF'
+          {
+            "events": [
+              {
+                "id": "lk-001",
+                "title": "洛陽會盟",
+                "description": "三國初期曹操與袁紹等諸侯在洛陽會盟討伐董卓",
+                "date": {
+                  "start": -190,
+                  "end": -190,
+                  "era": "東漢末年",
+                  "periodId": "turbulent-times"
+                },
+                "location": {
+                  "name": "洛陽",
+                  "coordinates": [34.75, 112.45],
+                  "adminDivisions": ["司隸校尉部", "河南尹"]
+                },
+                "categories": ["軍事", "政治"],
+                "keywords": ["曹操", "袁紹", "董卓", "會盟", "關東諸侯"],
+                "relatedEvents": ["lk-002"],
+                "examRelevance": "高"
+              }
+            ],
+            "totalCount": 1
+          }
+          EOF
+
+      - name: 建立分期定義
+        run: |
+          cat > webapp/src/assets/data/timeline.json << 'EOF'
+          {
+            "periods": [
+              {
+                "id": "huangjin-luanshi",
+                "name": "黃巾之亂與軍閥崛起",
+                "startYear": -184,
+                "endYear": -220,
+                "color": "#8B0000",
+                "description": "黃巾之亂爆發，東漢政權衰微，各地軍閥割據"
+              },
+              {
+                "id": "turbulent-times",
+                "name": "群雄逐鹿",
+                "startYear": -190,
+                "endYear": -220,
+                "color": "#CD5C5C",
+                "description": "董卓之亂後，諸侯割據混戰"
+              },
+              {
+                "id": "three-kingdoms",
+                "name": "三國鼎立",
+                "startYear": -220,
+                "endYear": -280,
+                "color": "#4169E1",
+                "description": "魏、蜀、吳三分天下"
+              },
+              {
+                "id": "jin-unification",
+                "name": "晉統一",
+                "startYear": -280,
+                "endYear": -420,
+                "color": "#2E8B57",
+                "description": "晉朝統一三國，但很快陷入八王之亂與五胡亂華"
+              }
+            ]
+          }
+          EOF
+
+      - name: 建立 README 開發藍圖
+        run: |
+          cat > README.md << 'EOF'
+          # Three Kingdoms Map 三國地圖
+
+          專為三國歷史愛好者設計的互動式時空地圖，結合歷史時間軸與地理空間，呈現三國時期的重要事件與人物。
+
+          ## 開發藍圖
+
+          ### Phase 1 - 基礎架構
+          - [x] 專案初始化
+          - [x] GitHub Repo 建立
+          - [ ] Angular 框架搭建
+          - [ ] NgRx 狀態管理設定
+          - [ ] Leaflet 地圖整合
+
+          ### Phase 2 - 核心功能
+          - [ ] 事件資料庫建立（100+ 事件）
+          - [ ] 時間軸元件開發
+          - [ ] 地圖標記與彈出視窗
+          - [ ] 事件詳情側邊欄
+
+          ### Phase 3 - 進階功能
+          - [ ] 自動解題測驗
+          - [ ] 模糊搜尋
+          - [ ] 圖層篩選
+
+          ## 技術棧
+          - Angular 20 (NgModule pattern)
+          - NgRx Store 20
+          - Leaflet
+          - Fuse.js
+
+          ## 線上預覽
+          建造中...
+
+          ## 資料範圍
+          - 時間：東漢末年（184年）至晉朝統一（280年）
+          - 事件數：100+ 筆
+          - 地理：涵蓋魏、蜀、吳三國疆域
+          EOF
+
+      - name: 建立 CLAUDE.md
+        run: |
+          cat > CLAUDE.md << 'EOF'
+          # CLAUDE.md - Three Kingdoms Map
+
+          ## ⚠️ 最重要規則
+          **Git commit 訊息絕對不可包含 `Co-Authored-By: Claude` 或任何 AI 署名資訊。** 只寫功能描述。
+
+          ## 專案概述
+          三國地圖是一個互動式歷史地理應用，類似 cap-map，但專注於三國時期（184-280年）的歷史事件。
+
+          ## 參考架構
+          詳細架構請參考：[cap-map CLAUDE.md](https://github.com/raybird/cap-map/blob/main/CLAUDE.md)
+
+          ## 技術對應
+          | cap-map | Three Kingdoms Map |
+          |---------|-------------------|
+          | Taiwan History Events | Three Kingdoms Events |
+          | 8 Periods (Taiwan) | 4 Periods (三國分期) |
+          | 106 events | 100+ events (target) |
+          | 會考相關標籤 | 演義/正史對照標籤 |
+
+          ## 資料格式
+          ```json
+          {
+            "id": "lk-001",
+            "title": "事件標題",
+            "description": "事件描述",
+            "date": {
+              "start": -190,
+              "end": -190,
+              "era": "東漢末年",
+              "periodId": "turbulent-times"
+            },
+            "location": {
+              "name": "地點名",
+              "coordinates": [34.75, 112.45],
+              "adminDivisions": ["古代行政區"]
+            },
+            "factions": ["魏", "蜀", "吳", "其他"],
+            "categories": ["軍事", "政治", "外交"],
+            "keywords": ["曹操", "劉備", "孫權"],
+            "relatedEvents": ["event-id"],
+            "sourceType": "正史/演義",
+            "examRelevance": "高/中/低"
+          }
+          ```
+
+          ## 分期定義
+          | ID | 名稱 | 年代 | 顏色 |
+          |-----|------|------|------|
+          | huangjin-luanshi | 黃巾之亂與軍閥崛起 | 184-220 | #8B0000 |
+          | turbulent-times | 群雄逐鹿 | 190-220 | #CD5C5C |
+          | three-kingdoms | 三國鼎立 | 220-280 | #4169E1 |
+          | jin-unification | 晉統一 | 280-420 | #2E8B57 |
+
+          ## Angular 架構
+          - 標準 NgModule pattern（standalone: false）
+          - 三個 NgRx slice：event / map / timeline
+          - 元件：MapContainer / Timeline / EventSidebar / SearchBar / LayerControl
+
+          ## 開發命令
+          ```bash
+          cd webapp
+          npm install
+          npm start          # 開發伺服器
+          npm run build      # 生產建置
+          npm test           # 單元測試
+          ```
+          EOF
+
+      - name: Commit 並推送
+        run: |
+          git config user.name "Autonomous Agent"
+          git config user.email "agent@three-kingdoms-map.local"
+          git add -A
+          git diff --cached --stat
+          git commit -m " Autonomous: Phase 1 基礎結構與資料框架建立"
+          git push origin main
+
+  report:
+    name: 生成進度報告
+    needs: develop
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 生成摘要
+        run: |
+          echo "=== 三國地圖專案開發進度報告 ==="
+          echo "執行時間：$(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          echo ""
+          echo "## 已完成"
+          echo "- 排程 Workflow 建立"
+          echo "- 基本 Angular 目錄結構"
+          echo "- 事件資料 JSON 框架（1筆範例）"
+          echo "- 分期定義 JSON（4個分期）"
+          echo "- README 開發藍圖"
+          echo "- CLAUDE.md 開發指南"
+          echo ""
+          echo "## 待辦"
+          echo "- 建立完整的 100+ 事件資料庫"
+          echo "- 實作 Angular 元件"
+          echo "- 整合 Leaflet 地圖"
+          echo "- 設定 NgRx Store"
+          echo ""
+          echo "## 下次執行預定"
+          echo "- 新增 20-30 筆三國事件"
+          echo "- 實作 TimelineComponent 時間軸"
+          echo "- 建立 MapContainerComponent 地圖容器"
+
+  notify:
+    name: 通知
+    needs: [research, develop, report]
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: 輸出執行摘要
+        run: |
+          echo "=== 自主開發執行完成 ==="
+          echo "Repo: https://github.com/raybird/three-kingdoms-map"
+          echo "狀態: ${{ needs.develop.result }}"
