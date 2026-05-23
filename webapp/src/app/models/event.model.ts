@@ -23,4 +23,5 @@ export interface HistoricalEvent {
   sourceType: '正史' | '演義' | '兩者皆有';
   factions: string[];
   historicalSignificance: '高' | '中' | '低';
+  wikiUrl?: string;
 }

@@ -99,6 +99,11 @@ export class EventSidebarComponent implements OnInit, OnDestroy {
     return this.allEvents.find(e => e.id === id)?.title ?? id;
   }
 
+  getWikiUrl(event: any): string {
+    if (event.wikiUrl) return event.wikiUrl;
+    return `https://zh.wikipedia.org/wiki/${encodeURIComponent(event.title)}`;
+  }
+
   closeSidebar(): void {
     this.store.dispatch(EventActions.clearSelectedEvent());
     this.store.dispatch(MapActions.clearSelectedEvent());

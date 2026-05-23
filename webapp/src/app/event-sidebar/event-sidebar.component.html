@@ -20,6 +20,12 @@
         <p>{{ event.description }}</p>
       </div>
 
+      <div class="section wiki-section">
+        <a [href]="getWikiUrl(event)" target="_blank" class="wiki-btn" title="查看維基百科百科條目">
+          <span class="wiki-icon">🌐</span>開往 Wiki 閱讀詳細條目
+        </a>
+      </div>
+
       @if (event.categories?.length) {
         <div class="section">
           <h4>類別</h4>

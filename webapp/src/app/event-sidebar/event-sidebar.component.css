@@ -136,6 +136,41 @@
   color: #8b7355;
 }
 
+.wiki-section {
+  margin-top: 16px;
+}
+
+.wiki-section .wiki-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  color: var(--color-gold, #c8a427);
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  padding: 10px 16px;
+  border: 1px solid rgba(200, 164, 39, 0.4);
+  border-radius: 6px;
+  background: #ffffff;
+  font-size: 0.9rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  font-family: var(--font-heading);
+}
+
+.wiki-section .wiki-btn:hover {
+  background: var(--color-gold, #c8a427);
+  color: #ffffff;
+  border-color: var(--color-gold, #c8a427);
+  box-shadow: 0 4px 10px rgba(200, 164, 39, 0.25);
+  transform: translateY(-1px);
+}
+
+.wiki-section .wiki-btn .wiki-icon {
+  font-size: 1rem;
+}
+
 .card-body {
   flex: 1;
   overflow-y: auto;
