@@ -1,0 +1,42 @@
+[
+  {
+    "id": "huangjin-luanshi",
+    "label": "黃巾之亂與軍閥崛起",
+    "startDate": "0184-01-01",
+    "endDate": "0189-12-31",
+    "startYear": 184,
+    "endYear": 189,
+    "color": "#8B0000",
+    "description": "黃巾起義爆發，漢室衰微，地方軍閥擁兵自重。"
+  },
+  {
+    "id": "turbulent-times",
+    "label": "群雄逐鹿",
+    "startDate": "0190-01-01",
+    "endDate": "0219-12-31",
+    "startYear": 190,
+    "endYear": 219,
+    "color": "#CD5C5C",
+    "description": "董卓亂政，諸侯聯軍討伐，曹操、劉備、孫權等勢力逐步崛起。"
+  },
+  {
+    "id": "three-kingdoms",
+    "label": "三國鼎立",
+    "startDate": "0220-01-01",
+    "endDate": "0279-12-31",
+    "startYear": 220,
+    "endYear": 279,
+    "color": "#4169E1",
+    "description": "曹丕篡漢、劉備稱帝、孫權稱王，三國正式對峙並進行多次北伐與交鋒。"
+  },
+  {
+    "id": "jin-unification",
+    "label": "晉統一",
+    "startDate": "0279-11-01",
+    "endDate": "0420-12-31",
+    "startYear": 279,
+    "endYear": 420,
+    "color": "#2E8B57",
+    "description": "西晉滅吳完成統一，後經歷八王之亂與五胡亂華，東晉偏安江南。"
+  }
+]

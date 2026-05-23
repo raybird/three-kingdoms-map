@@ -1,0 +1,82 @@
+<div class="search-box-container">
+  <div class="search-input-wrapper" [class.has-chips]="selectedTextbooks.length > 0">
+    <span class="search-icon">🔍</span>
+
+    @for (tb of selectedTextbooks; track tb) {
+      <span
+        class="filter-chip"
+        (mousedown)="$event.preventDefault()"
+        (click)="removeTextbook(tb)">
+        {{ getLabel(tb) }}
+        <span class="filter-chip-remove">✕</span>
+      </span>
+    }
+
+    <input
+      type="text"
+      class="search-input"
+      id="search-input"
+      [placeholder]="selectedTextbooks.length > 0 ? '輸入關鍵字進一步篩選...' : '選擇篩選條件或輸入關鍵字...'"
+      (input)="onSearch($event)"
+      (focus)="onFocus()"
+      (blur)="onBlur()"
+      autocomplete="off"
+    />
+    @if (searchResults.length > 0 || queryText || selectedTextbooks.length > 0) {
+      <button class="clear-button" (click)="clearSearch()">×</button>
+    }
+  </div>
+
+  <!-- 課本篩選面板（focus + 無文字） -->
+  @if (showFilterPanel) {
+    <div class="filter-panel">
+      <div class="filter-panel-header">勢力與文獻篩選</div>
+      <div class="filter-chip-grid">
+        @for (opt of textbookOptions; track opt.value) {
+          <button
+            class="filter-option"
+            [class.selected]="isTextbookSelected(opt.value)"
+            (mousedown)="$event.preventDefault()"
+            (click)="toggleTextbook(opt.value)">
+            {{ opt.label }}
+          </button>
+        }
+      </div>
+    </div>
+  }
+
+  <!-- 搜尋結果 -->
+  @if (showResults) {
+    <div class="search-results-container">
+      <div class="results-header">
+        <h4>搜尋結果</h4>
+        <span class="result-count">
+          {{ searchResults.length }} 個結果
+          @if (selectedTextbooks.length > 0) {
+            <span class="filter-active-badge">已套用篩選</span>
+          }
+        </span>
+      </div>
+      <ul class="results-list">
+        @for (event of searchResults; track event.id) {
+          <li class="result-item" (click)="selectEvent(event.id)">
+            <div class="result-header">
+              <span class="result-title">{{ event.title }}</span>
+            </div>
+            <div class="result-meta">
+              <span class="result-dynasty">{{ event.date?.period || event.date?.start }}</span>
+              <span class="result-location">{{ event.location?.name }}</span>
+            </div>
+          </li>
+        }
+      </ul>
+    </div>
+  }
+
+  @if (loading$ | async) {
+    <div class="search-loading">載入中...</div>
+  }
+  @if ((error$ | async) && !(loading$ | async)) {
+    <div class="search-message">搜尋失敗: {{ error$ | async }}</div>
+  }
+</div>

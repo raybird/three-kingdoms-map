@@ -1,0 +1,662 @@
+[
+  {
+    "id": "huangjin-rebellion",
+    "title": "黃巾之亂",
+    "description": "張角創立太平道，率領信徒發動大規模起義，動搖東漢統治根基，開啟漢末亂世。",
+    "date": {
+      "start": "0184-03-01",
+      "end": "0184-11-30",
+      "period": "黃巾之亂與軍閥崛起",
+      "periodId": "huangjin-luanshi"
+    },
+    "location": {
+      "name": "鉅鹿（今河北平鄉）",
+      "coordinates": [37.07, 115.02],
+      "adminDivisions": ["冀州", "鉅鹿郡"]
+    },
+    "categories": ["軍事", "政治"],
+    "keywords": ["張角", "太平道", "黃巾軍", "蒼天已死"],
+    "relatedEvents": ["dongzhuo-monopolizes"],
+    "sourceType": "兩者皆有",
+    "factions": ["群雄"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "dongzhuo-monopolizes",
+    "title": "董卓亂政",
+    "description": "大將軍何進被殺後，并州牧董卓引兵入京，廢立皇帝，獨攬朝政，招致天下諸侯反抗。",
+    "date": {
+      "start": "0189-08-01",
+      "end": "0189-12-31",
+      "period": "黃巾之亂與軍閥崛起",
+      "periodId": "huangjin-luanshi"
+    },
+    "location": {
+      "name": "洛陽",
+      "coordinates": [34.75, 112.45],
+      "adminDivisions": ["司隸校尉部", "河南尹"]
+    },
+    "categories": ["政治"],
+    "keywords": ["董卓", "少帝", "陳留王", "呂布"],
+    "relatedEvents": ["huangjin-rebellion", "alliance-against-dong"],
+    "sourceType": "兩者皆有",
+    "factions": ["群雄"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "alliance-against-dong",
+    "title": "關東諸侯討董卓",
+    "description": "曹操、袁紹等關東諸侯起兵結盟，推舉袁紹為盟主，起兵討伐董卓。",
+    "date": {
+      "start": "0190-01-01",
+      "end": "0190-05-31",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "酸棗（今河南延津）",
+      "coordinates": [35.15, 114.20],
+      "adminDivisions": ["兗州", "陳留郡"]
+    },
+    "categories": ["軍事", "政治"],
+    "keywords": ["曹操", "袁紹", "盟主", "討董聯軍"],
+    "relatedEvents": ["dongzhuo-monopolizes", "luoyang-burned"],
+    "sourceType": "兩者皆有",
+    "factions": ["群雄"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "luoyang-burned",
+    "title": "火燒洛陽與遷都長安",
+    "description": "面對聯軍攻勢，董卓強迫漢獻帝及居民遷都長安，並下令焚毀都城洛陽，使百年帝都化為廢墟。",
+    "date": {
+      "start": "0190-03-01",
+      "end": "0190-03-31",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "洛陽",
+      "coordinates": [34.75, 112.45],
+      "adminDivisions": ["司隸校尉部", "河南尹"]
+    },
+    "categories": ["軍事", "政治"],
+    "keywords": ["董卓", "火燒洛陽", "遷都", "長安"],
+    "relatedEvents": ["alliance-against-dong", "diaochan-beauty-trap"],
+    "sourceType": "兩者皆有",
+    "factions": ["群雄"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "diaochan-beauty-trap",
+    "title": "連環計與董卓伏誅",
+    "description": "司徒王允設計連環計，利用美人貂蟬離間董卓與其義子呂布，最終呂布在長安刺殺董卓。",
+    "date": {
+      "start": "0192-04-22",
+      "end": "0192-04-22",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "長安",
+      "coordinates": [34.26, 108.95],
+      "adminDivisions": ["司隸校尉部", "京兆尹"]
+    },
+    "categories": ["政治"],
+    "keywords": ["呂布", "王允", "貂蟬", "連環計"],
+    "relatedEvents": ["luoyang-burned", "sunce-south-yangtze"],
+    "sourceType": "演義",
+    "factions": ["群雄"],
+    "historicalSignificance": "中"
+  },
+  {
+    "id": "sunce-south-yangtze",
+    "title": "孫策平定江東",
+    "description": "孫策脫離袁術，率部東渡長江，在周瑜等人的輔佐下迅速擊敗劉繇、王朗等割據勢力，奠定東吳基業。",
+    "date": {
+      "start": "0195-01-01",
+      "end": "0199-12-31",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "曲阿（今江蘇丹陽）",
+      "coordinates": [32.01, 119.58],
+      "adminDivisions": ["揚州", "吳郡"]
+    },
+    "categories": ["軍事", "政治"],
+    "keywords": ["孫策", "周瑜", "江東", "小霸王"],
+    "relatedEvents": ["diaochan-beauty-trap", "caocao-controls-emperor"],
+    "sourceType": "正史",
+    "factions": ["吳"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "caocao-controls-emperor",
+    "title": "曹操挾天子以令諸侯",
+    "description": "曹操迎接流落的漢獻帝至許都，以此取得政治上的正統優位，開始藉天子詔令征討各地諸侯。",
+    "date": {
+      "start": "0196-09-01",
+      "end": "0196-09-30",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "許都（今河南許昌）",
+      "coordinates": [34.02, 113.83],
+      "adminDivisions": ["豫州", "穎川郡"]
+    },
+    "categories": ["政治"],
+    "keywords": ["曹操", "漢獻帝", "許都", "奉天子"],
+    "relatedEvents": ["sunce-south-yangtze", "drinking-and-heroes"],
+    "sourceType": "正史",
+    "factions": ["魏"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "drinking-and-heroes",
+    "title": "青梅煮酒論英雄",
+    "description": "曹操邀請劉備共飲青梅酒，席間曹操言「天下英雄，唯使君與操耳」，劉備聞言失箸以雷聲掩飾心驚。",
+    "date": {
+      "start": "0199-06-01",
+      "end": "0199-06-30",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "許都",
+      "coordinates": [34.02, 113.83],
+      "adminDivisions": ["豫州", "穎川郡"]
+    },
+    "categories": ["政治"],
+    "keywords": ["曹操", "劉備", "青梅煮酒", "英雄"],
+    "relatedEvents": ["caocao-controls-emperor", "guandu-battle"],
+    "sourceType": "演義",
+    "factions": ["魏", "蜀"],
+    "historicalSignificance": "中"
+  },
+  {
+    "id": "guandu-battle",
+    "title": "官渡之戰",
+    "description": "曹操與袁紹在官渡對峙，曹操奇襲袁紹在烏巢的糧倉，袁紹軍崩潰。此戰奠定曹操統一北方的基礎。",
+    "date": {
+      "start": "0200-02-01",
+      "end": "0200-10-31",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "官渡（今河南中牟）",
+      "coordinates": [34.72, 114.02],
+      "adminDivisions": ["司隸校尉部", "河南尹"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["曹操", "袁紹", "烏巢", "以少勝多"],
+    "relatedEvents": ["drinking-and-heroes", "thrice-visiting-cottage"],
+    "sourceType": "兩者皆有",
+    "factions": ["魏", "群雄"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "thrice-visiting-cottage",
+    "title": "三顧茅廬",
+    "description": "劉備三次親自拜訪隱居隆中的諸葛亮，諸葛亮提出著名的「隆中對」，規劃了奪取荊益、三國鼎立的戰略方針。",
+    "date": {
+      "start": "0207-10-01",
+      "end": "0208-01-31",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "隆中（今湖北襄陽）",
+      "coordinates": [32.01, 112.02],
+      "adminDivisions": ["荊州", "南陽郡"]
+    },
+    "categories": ["政治", "文化與科技"],
+    "keywords": ["劉備", "諸葛亮", "隆中對", "茅廬"],
+    "relatedEvents": ["guandu-battle", "chibi-battle"],
+    "sourceType": "兩者皆有",
+    "factions": ["蜀"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "chibi-battle",
+    "title": "赤壁之戰",
+    "description": "孫權與劉備組成聯軍，在周瑜、諸葛亮等人的謀劃下，於赤壁火燒曹操戰船，大敗曹軍，開啟三國鼎立之勢。",
+    "date": {
+      "start": "0208-10-01",
+      "end": "0208-11-30",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "赤壁（今湖北赤壁）",
+      "coordinates": [29.87, 113.62],
+      "adminDivisions": ["荊州", "江夏郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["曹操", "周瑜", "劉備", "火燒赤壁"],
+    "relatedEvents": ["thrice-visiting-cottage", "liubei-enters-yi"],
+    "sourceType": "兩者皆有",
+    "factions": ["魏", "蜀", "吳"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "jianan-literature",
+    "title": "建安文學與鄴下文人集團",
+    "description": "以「三曹」（曹操、曹丕、曹植）與建安七子為代表的文學創作，以鄴城為中心，風格慷慨悲涼，史稱「建安風骨」。",
+    "date": {
+      "start": "0196-01-01",
+      "end": "0220-12-31",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "鄴城（今河北臨漳）",
+      "coordinates": [36.29, 114.41],
+      "adminDivisions": ["冀州", "魏郡"]
+    },
+    "categories": ["文化與科技"],
+    "keywords": ["曹操", "曹植", "建安七子", "建安風骨"],
+    "relatedEvents": ["caocao-controls-emperor", "caopi-usurps-han"],
+    "sourceType": "正史",
+    "factions": ["魏"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "huatuo-medicine",
+    "title": "神醫華佗行醫與發明",
+    "description": "東漢末年名醫華佗在安徽、河南一帶行醫，發明了全身麻醉藥「麻沸散」並創編健體功法「五禽戲」，後因忤逆曹操而被殺。",
+    "date": {
+      "start": "0190-01-01",
+      "end": "0208-12-31",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "譙縣（今安徽亳州）",
+      "coordinates": [33.84, 115.77],
+      "adminDivisions": ["豫州", "沛國"]
+    },
+    "categories": ["文化與科技"],
+    "keywords": ["華佗", "麻沸散", "五禽戲", "中醫"],
+    "relatedEvents": ["chibi-battle"],
+    "sourceType": "兩者皆有",
+    "factions": ["群雄"],
+    "historicalSignificance": "中"
+  },
+  {
+    "id": "liubei-enters-yi",
+    "title": "劉備入蜀與奪取益州",
+    "description": "劉備受劉璋之邀入蜀協助防守，後與劉璋決裂，在諸葛亮、張飛等人增援下攻佔成都，奪取益州作爲立國根據地。",
+    "date": {
+      "start": "0211-01-01",
+      "end": "0214-06-30",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "成都",
+      "coordinates": [30.67, 104.06],
+      "adminDivisions": ["益州", "蜀郡"]
+    },
+    "categories": ["軍事", "政治"],
+    "keywords": ["劉備", "劉璋", "成都", "益州"],
+    "relatedEvents": ["chibi-battle", "hanzhong-campaign"],
+    "sourceType": "正史",
+    "factions": ["蜀"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "hanzhong-campaign",
+    "title": "漢中之戰",
+    "description": "劉備與曹操在漢中展開爭奪，黃忠在定軍山斬殺夏侯淵。劉備最終獲勝自立為「漢中王」。",
+    "date": {
+      "start": "0217-10-01",
+      "end": "0219-05-31",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "漢中（今陝西漢中）",
+      "coordinates": [33.07, 107.02],
+      "adminDivisions": ["益州", "漢中郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["劉備", "曹操", "定軍山", "黃忠"],
+    "relatedEvents": ["liubei-enters-yi", "guanyu-lost-jingzhou"],
+    "sourceType": "正史",
+    "factions": ["魏", "蜀"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "guanyu-lost-jingzhou",
+    "title": "關羽大意失荊州",
+    "description": "關羽北伐樊城水淹七軍，威震華夏。曹魏暗中聯合同盟東吳，東吳呂蒙「白衣渡江」襲取荊州，關羽敗走麥城遇害。",
+    "date": {
+      "start": "0219-07-01",
+      "end": "0219-12-31",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "江陵（今湖北荊州）",
+      "coordinates": [30.35, 112.18],
+      "adminDivisions": ["荊州", "南郡"]
+    },
+    "categories": ["軍事", "政治"],
+    "keywords": ["關羽", "呂蒙", "白衣渡江", "麥城"],
+    "relatedEvents": ["hanzhong-campaign", "caopi-usurps-han"],
+    "sourceType": "兩者皆有",
+    "factions": ["魏", "蜀", "吳"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "caopi-usurps-han",
+    "title": "曹丕篡漢建魏",
+    "description": "曹操病逝後，其子曹丕繼任魏王，隨後逼迫漢獻帝禪讓帝位，改國號為「魏」，東漢宣告滅亡，三國時代正式開啟。",
+    "date": {
+      "start": "0220-12-10",
+      "end": "0220-12-10",
+      "period": "三國鼎立",
+      "periodId": "three-kingdoms"
+    },
+    "location": {
+      "name": "許都",
+      "coordinates": [34.02, 113.83],
+      "adminDivisions": ["豫州", "穎川郡"]
+    },
+    "categories": ["政治"],
+    "keywords": ["曹丕", "漢獻帝", "禪讓", "曹魏"],
+    "relatedEvents": ["guanyu-lost-jingzhou", "liubei-declares-emperor"],
+    "sourceType": "正史",
+    "factions": ["魏"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "liubei-declares-emperor",
+    "title": "劉備稱帝與蜀漢建立",
+    "description": "因曹丕篡漢，劉備在成都登基稱帝，延續漢室正統，國號為「漢」（史稱蜀漢）。",
+    "date": {
+      "start": "0221-05-15",
+      "end": "0221-05-15",
+      "period": "三國鼎立",
+      "periodId": "three-kingdoms"
+    },
+    "location": {
+      "name": "成都",
+      "coordinates": [30.67, 104.06],
+      "adminDivisions": ["益州", "蜀郡"]
+    },
+    "categories": ["政治"],
+    "keywords": ["劉備", "諸葛亮", "登基", "蜀漢"],
+    "relatedEvents": ["caopi-usurps-han", "yiling-battle"],
+    "sourceType": "正史",
+    "factions": ["蜀"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "yiling-battle",
+    "title": "夷陵之戰",
+    "description": "劉備為報關羽之仇，親率大軍討伐東吳，吳將陸遜以火攻大破蜀軍。劉備兵敗退守白帝城，托孤諸葛亮後逝世。",
+    "date": {
+      "start": "0221-07-01",
+      "end": "0222-08-31",
+      "period": "三國鼎立",
+      "periodId": "three-kingdoms"
+    },
+    "location": {
+      "name": "猇亭（今湖北宜昌）",
+      "coordinates": [30.52, 111.43],
+      "adminDivisions": ["荊州", "宜都郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["劉備", "陸遜", "火燒連營", "白帝城託孤"],
+    "relatedEvents": ["liubei-declares-emperor", "zhugeliang-southern-exped"],
+    "sourceType": "兩者皆有",
+    "factions": ["蜀", "吳"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "zhugeliang-southern-exped",
+    "title": "諸葛亮南征與七擒孟獲",
+    "description": "為平定南方夷人叛亂、穩定後方，諸葛亮親自南征，對首領孟獲採取「攻心為上」策略七擒七縱，終使其心服。",
+    "date": {
+      "start": "0225-03-01",
+      "end": "0225-12-31",
+      "period": "三國鼎立",
+      "periodId": "three-kingdoms"
+    },
+    "location": {
+      "name": "建寧（今雲南曲靖）",
+      "coordinates": [25.48, 103.79],
+      "adminDivisions": ["益州", "建寧郡"]
+    },
+    "categories": ["軍事", "政治"],
+    "keywords": ["諸葛亮", "孟獲", "七擒七縱", "南中"],
+    "relatedEvents": ["yiling-battle", "first-northern-expedition"],
+    "sourceType": "兩者皆有",
+    "factions": ["蜀"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "first-northern-expedition",
+    "title": "諸葛亮首次北伐與失街亭",
+    "description": "諸葛亮出師北伐，天水等地響應。但先鋒馬謖違背調度失守街亭，蜀軍失去立足點，諸葛亮被迫撤軍並「揮淚斬馬謖」。",
+    "date": {
+      "start": "0228-03-01",
+      "end": "0228-05-31",
+      "period": "三國鼎立",
+      "periodId": "three-kingdoms"
+    },
+    "location": {
+      "name": "街亭（今甘肅莊浪）",
+      "coordinates": [35.20, 106.08],
+      "adminDivisions": ["秦州", "天水郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["諸葛亮", "馬謖", "揮淚斬馬謖", "街亭"],
+    "relatedEvents": ["zhugeliang-southern-exped", "wuzhangyuan-battle"],
+    "sourceType": "兩者皆有",
+    "factions": ["魏", "蜀"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "majun-inventions",
+    "title": "馬鈞改進科技與指南車",
+    "description": "曹魏機械發明家馬鈞在洛陽改進了織綾機、提水翻車，並成功重造指南車，為中國古代機械工程的巔峰之作。",
+    "date": {
+      "start": "0235-01-01",
+      "end": "0235-12-31",
+      "period": "三國鼎立",
+      "periodId": "three-kingdoms"
+    },
+    "location": {
+      "name": "洛陽",
+      "coordinates": [34.75, 112.45],
+      "adminDivisions": ["司隸校尉部", "河南尹"]
+    },
+    "categories": ["文化與科技"],
+    "keywords": ["馬鈞", "指南車", "翻車", "機械發明"],
+    "relatedEvents": ["caopi-usurps-han"],
+    "sourceType": "正史",
+    "factions": ["魏"],
+    "historicalSignificance": "中"
+  },
+  {
+    "id": "shiting-battle",
+    "title": "石亭之戰",
+    "description": "東吳鄱陽太守周魴以「斷髮賺曹休」誘敵，魏大司馬曹休中計率軍深入，吳將陸遜合擊大破魏軍。",
+    "date": {
+      "start": "0228-08-01",
+      "end": "0228-09-30",
+      "period": "三國鼎立",
+      "periodId": "three-kingdoms"
+    },
+    "location": {
+      "name": "石亭（今安徽潛山）",
+      "coordinates": [30.63, 116.53],
+      "adminDivisions": ["揚州", "廬江郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["周魴", "曹休", "陸遜", "詐降"],
+    "relatedEvents": ["first-northern-expedition", "sunquan-declares-emperor"],
+    "sourceType": "正史",
+    "factions": ["魏", "吳"],
+    "historicalSignificance": "中"
+  },
+  {
+    "id": "sunquan-declares-emperor",
+    "title": "孫權稱帝與東吳建國",
+    "description": "孫權於武昌稱帝，建國號為「吳」，隨後遷都建業，三國鼎立在法理上正式完成。",
+    "date": {
+      "start": "0229-05-23",
+      "end": "0229-05-23",
+      "period": "三國鼎立",
+      "periodId": "three-kingdoms"
+    },
+    "location": {
+      "name": "武昌（今湖北鄂州）",
+      "coordinates": [30.39, 114.89],
+      "adminDivisions": ["揚州", "江夏郡"]
+    },
+    "categories": ["政治"],
+    "keywords": ["孫權", "東吳", "登基", "建業"],
+    "relatedEvents": ["shiting-battle"],
+    "sourceType": "正史",
+    "factions": ["吳"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "wuzhangyuan-battle",
+    "title": "五丈原之戰與諸葛亮逝世",
+    "description": "諸葛亮率軍最後一次北伐與司馬懿相峙於五丈原，因積勞成疾病逝於軍中，蜀軍秘不發喪安全撤退。",
+    "date": {
+      "start": "0234-04-01",
+      "end": "0234-08-31",
+      "period": "三國鼎立",
+      "periodId": "three-kingdoms"
+    },
+    "location": {
+      "name": "五丈原（今陝西岐山）",
+      "coordinates": [34.22, 107.67],
+      "adminDivisions": ["雍州", "扶風郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["諸葛亮", "司馬懿", "秋風五丈原", "死諸葛"],
+    "relatedEvents": ["first-northern-expedition", "gaoping-tombs-coup"],
+    "sourceType": "兩者皆有",
+    "factions": ["魏", "蜀"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "gaoping-tombs-coup",
+    "title": "高平陵之變",
+    "description": "少帝曹芳出洛陽謁高平陵，太傅司馬懿發動政變，奪取洛陽控制權，誅殺曹爽，司馬氏自此架空魏室政權。",
+    "date": {
+      "start": "0249-02-05",
+      "end": "0249-02-05",
+      "period": "三國鼎立",
+      "periodId": "three-kingdoms"
+    },
+    "location": {
+      "name": "洛陽",
+      "coordinates": [34.75, 112.45],
+      "adminDivisions": ["司隸校尉部", "河南尹"]
+    },
+    "categories": ["政治"],
+    "keywords": ["司馬懿", "曹爽", "政變", "司馬氏掌權"],
+    "relatedEvents": ["wuzhangyuan-battle", "wei-conquers-shu"],
+    "sourceType": "正史",
+    "factions": ["魏", "晉"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "wei-conquers-shu",
+    "title": "魏滅蜀之戰",
+    "description": "魏將鄧艾率軍避開姜維防線，冒險「偷渡陰平」，奇襲綿竹迫近成都，蜀主劉禪開城投降，蜀漢滅亡。",
+    "date": {
+      "start": "0263-08-01",
+      "end": "0263-11-30",
+      "period": "三國鼎立",
+      "periodId": "three-kingdoms"
+    },
+    "location": {
+      "name": "陰平（今甘肅文縣）",
+      "coordinates": [32.94, 104.68],
+      "adminDivisions": ["益州", "陰平郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["鄧艾", "偷渡陰平", "劉禪", "蜀漢滅亡"],
+    "relatedEvents": ["gaoping-tombs-coup", "sima-yan-usurps-wei"],
+    "sourceType": "正史",
+    "factions": ["魏", "蜀"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "sima-yan-usurps-wei",
+    "title": "司馬炎篡魏建晉",
+    "description": "晉王司馬炎逼迫魏帝曹奐禪讓，建立西晉，改元泰始，追尊司馬懿為高祖宣皇帝。",
+    "date": {
+      "start": "0266-02-08",
+      "end": "0266-02-08",
+      "period": "三國鼎立",
+      "periodId": "three-kingdoms"
+    },
+    "location": {
+      "name": "洛陽",
+      "coordinates": [34.75, 112.45],
+      "adminDivisions": ["司隸校尉部", "河南尹"]
+    },
+    "categories": ["政治"],
+    "keywords": ["司馬炎", "禪讓", "西晉", "三國終結"],
+    "relatedEvents": ["wei-conquers-shu", "jin-conquers-wu"],
+    "sourceType": "正史",
+    "factions": ["魏", "晉"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "jin-conquers-wu",
+    "title": "晉滅吳之戰",
+    "description": "西晉大舉出兵水陸並進，王濬率水軍順江而下突破「鐵鎖橫江」，直取建業，吳主孫皓投降，天下三分歸晉。",
+    "date": {
+      "start": "0279-11-01",
+      "end": "0280-05-01",
+      "period": "晉統一",
+      "periodId": "jin-unification"
+    },
+    "location": {
+      "name": "建業（今江蘇南京）",
+      "coordinates": [32.04, 118.78],
+      "adminDivisions": ["揚州", "丹陽郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["鐵鎖橫江", "王濬", "孫皓", "大一統"],
+    "relatedEvents": ["sima-yan-usurps-wei", "eight-princes-rebellion"],
+    "sourceType": "正史",
+    "factions": ["吳", "晉"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "eight-princes-rebellion",
+    "title": "八王之亂爆發",
+    "description": "西晉惠帝時期，外戚與諸王為爭奪中央政權發動內亂，使社會遭到極大破壞，隨後引發五胡亂華。",
+    "date": {
+      "start": "0291-01-01",
+      "end": "0306-12-31",
+      "period": "晉統一",
+      "periodId": "jin-unification"
+    },
+    "location": {
+      "name": "洛陽",
+      "coordinates": [34.75, 112.45],
+      "adminDivisions": ["司隸校尉部", "河南尹"]
+    },
+    "categories": ["軍事", "政治"],
+    "keywords": ["八王之亂", "賈南風", "政變", "西晉衰亡"],
+    "relatedEvents": ["jin-conquers-wu"],
+    "sourceType": "正史",
+    "factions": ["晉"],
+    "historicalSignificance": "高"
+  }
+]
