@@ -658,5 +658,225 @@
     "sourceType": "正史",
     "factions": ["晉"],
     "historicalSignificance": "高"
+  },
+  {
+    "id": "xiapuzhi-battle",
+    "title": "下邳之戰與呂布殞命",
+    "description": "曹操與劉備聯軍圍攻割據徐州的呂布，曹軍掘水灌下邳城。呂布部將宋憲、魏續等反叛，縛呂布降曹，呂布最終在白門樓被處死。",
+    "date": {
+      "start": "0198-10-01",
+      "end": "0198-12-07",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "下邳（今江蘇睢寧）",
+      "coordinates": [34.05, 117.95],
+      "adminDivisions": ["徐州", "下邳郡"]
+    },
+    "categories": ["軍事", "政治"],
+    "keywords": ["呂布", "曹操", "白門樓", "水淹下邳"],
+    "relatedEvents": ["caocao-controls-emperor", "guandu-battle"],
+    "sourceType": "兩者皆有",
+    "factions": ["魏", "群雄"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "sunce-assassination",
+    "title": "孫策遇刺與孫權繼位",
+    "description": "江東割據者孫策在丹徒山中狩獵時，遭前吳郡太守許貢的門客伏擊受重傷，臨終前將印綬與江東基業託付給弟孫權，張昭、周瑜隨後輔政。",
+    "date": {
+      "start": "0200-04-05",
+      "end": "0200-04-05",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "丹徒（今江蘇鎮江）",
+      "coordinates": [32.18, 119.43],
+      "adminDivisions": ["揚州", "吳郡"]
+    },
+    "categories": ["政治"],
+    "keywords": ["孫策", "孫權", "許貢門客", "江東承襲"],
+    "relatedEvents": ["sunce-south-yangtze", "chibi-battle"],
+    "sourceType": "正史",
+    "factions": ["吳"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "changbanpo-battle",
+    "title": "長坂坡之戰",
+    "description": "曹操南征荊州，劉備敗退當陽。趙雲於亂軍中單騎突圍救出幼主阿斗，張飛則率二十騎在長坂橋據水斷橋拒曹軍，成功掩護劉備撤退。",
+    "date": {
+      "start": "0208-09-15",
+      "end": "0208-09-16",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "長坂坡（今湖北當陽）",
+      "coordinates": [30.82, 111.79],
+      "adminDivisions": ["荊州", "南郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["趙雲", "張飛", "長坂橋", "單騎救主"],
+    "relatedEvents": ["thrice-visiting-cottage", "chibi-battle"],
+    "sourceType": "兩者皆有",
+    "factions": ["魏", "蜀"],
+    "historicalSignificance": "中"
+  },
+  {
+    "id": "tongguan-battle",
+    "title": "潼關之戰",
+    "description": "馬超、韓遂等西涼十部諸侯疑曹操圖謀關中，起兵抗魏。曹操親征，在渭水擊敗聯軍，並用賈詡「抹書間諜記」離間馬超與韓遂，平定關中。",
+    "date": {
+      "start": "0211-03-01",
+      "end": "0211-09-30",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "潼關（今陝西潼關）",
+      "coordinates": [34.54, 110.29],
+      "adminDivisions": ["司隸校尉部", "弘農郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["馬超", "曹操", "割鬚棄袍", "離間計"],
+    "relatedEvents": ["chibi-battle", "liubei-enters-yi"],
+    "sourceType": "兩者皆有",
+    "factions": ["魏", "群雄"],
+    "historicalSignificance": "中"
+  },
+  {
+    "id": "hefei-battle",
+    "title": "逍遙津之戰（合肥之戰）",
+    "description": "孫權率十萬大軍圍攻合肥，魏將張遼以八百敢死士突襲吳軍，直衝孫權帥旗，後在逍遙津大破撤退的吳軍，孫權乘馬跳橋脫險，張遼自此威震江東。",
+    "date": {
+      "start": "0215-08-01",
+      "end": "0215-09-30",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "合肥（今安徽合肥）",
+      "coordinates": [31.86, 117.27],
+      "adminDivisions": ["揚州", "九江郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["張遼", "孫權", "逍遙津", "八百破十萬"],
+    "relatedEvents": ["liubei-enters-yi", "hanzhong-campaign"],
+    "sourceType": "兩者皆有",
+    "factions": ["魏", "吳"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "seven-steps-poem",
+    "title": "曹植七步成詩",
+    "description": "魏文帝曹丕嫉妒同母弟曹植的才華，命其在七步之內作詩，否則將其處決。曹植吟出「本是同根生，相煎何太急」，曹丕深感羞愧而免其死罪。",
+    "date": {
+      "start": "0220-11-01",
+      "end": "0220-11-30",
+      "period": "三國鼎立",
+      "periodId": "three-kingdoms"
+    },
+    "location": {
+      "name": "洛陽",
+      "coordinates": [34.75, 112.45],
+      "adminDivisions": ["司隸校尉部", "河南尹"]
+    },
+    "categories": ["文化與科技", "政治"],
+    "keywords": ["曹植", "曹丕", "七步詩", "兄弟相殘"],
+    "relatedEvents": ["caopi-usurps-han"],
+    "sourceType": "演義",
+    "factions": ["魏"],
+    "historicalSignificance": "中"
+  },
+  {
+    "id": "zhangfei-death",
+    "title": "張飛遇害與閬中出兵",
+    "description": "蜀漢車騎將軍張飛在閬中整兵準備東征伐吳，因性情暴躁、鞭撻部下，在出兵前夕遭麾下張達、範強刺殺，兩人攜張飛首級投奔東吳。",
+    "date": {
+      "start": "0221-06-01",
+      "end": "0221-06-30",
+      "period": "三國鼎立",
+      "periodId": "three-kingdoms"
+    },
+    "location": {
+      "name": "閬中（今四川閬中）",
+      "coordinates": [31.57, 105.97],
+      "adminDivisions": ["益州", "巴西郡"]
+    },
+    "categories": ["政治"],
+    "keywords": ["張飛", "閬中", "遇刺", "叛逃"],
+    "relatedEvents": ["liubei-declares-emperor", "yiling-battle"],
+    "sourceType": "正史",
+    "factions": ["蜀"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "jiangwei-expeditions",
+    "title": "姜維北伐與九伐中原",
+    "description": "諸葛亮病逝後，蜀漢大將軍姜維繼承其北伐遺志，多次率蜀軍出川攻魏，在洮西等地大破魏軍，並與魏將鄧艾、陳泰在關隴一帶長期對峙。",
+    "date": {
+      "start": "0247-01-01",
+      "end": "0262-10-31",
+      "period": "三國鼎立",
+      "periodId": "three-kingdoms"
+    },
+    "location": {
+      "name": "狄道（今甘肅臨洮）",
+      "coordinates": [35.37, 103.88],
+      "adminDivisions": ["雍州", "隴西郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["姜維", "鄧艾", "北伐", "洮西之戰"],
+    "relatedEvents": ["wuzhangyuan-battle", "wei-conquers-shu"],
+    "sourceType": "正史",
+    "factions": ["魏", "蜀"],
+    "historicalSignificance": "中"
+  },
+  {
+    "id": "huainan-three-rebellions",
+    "title": "淮南三叛",
+    "description": "曹魏揚州都督王凌、毌丘儉、文欽及諸葛誕，不滿太傅司馬懿及司馬師、司馬昭專權，先後在壽春發動三次大規模兵變，最終皆被平定。",
+    "date": {
+      "start": "0251-04-01",
+      "end": "0258-03-31",
+      "period": "三國鼎立",
+      "periodId": "three-kingdoms"
+    },
+    "location": {
+      "name": "壽春（今安徽壽縣）",
+      "coordinates": [32.58, 116.78],
+      "adminDivisions": ["揚州", "淮南郡"]
+    },
+    "categories": ["軍事", "政治"],
+    "keywords": ["司馬昭", "諸葛誕", "毌丘儉", "兵變壽春"],
+    "relatedEvents": ["gaoping-tombs-coup", "wei-conquers-shu"],
+    "sourceType": "正史",
+    "factions": ["魏", "晉"],
+    "historicalSignificance": "高"
+  },
+  {
+    "id": "dongxing-battle",
+    "title": "東興之戰",
+    "description": "曹魏分兵三路伐吳。東吳太傅諸葛恪命將軍丁奉為先鋒率軍赴東興，丁奉利用大雪天寒，命令將士「裸身持短兵」奇襲魏軍前鋒營地，大破魏軍。",
+    "date": {
+      "start": "0252-11-01",
+      "end": "0252-12-31",
+      "period": "三國鼎立",
+      "periodId": "three-kingdoms"
+    },
+    "location": {
+      "name": "東興（今安徽巢湖）",
+      "coordinates": [31.56, 117.88],
+      "adminDivisions": ["揚州", "廬江郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["丁奉", "諸葛恪", "裸身持兵", "東興大捷"],
+    "relatedEvents": ["huainan-three-rebellions", "wei-conquers-shu"],
+    "sourceType": "正史",
+    "factions": ["魏", "吳"],
+    "historicalSignificance": "中"
   }
 ]
