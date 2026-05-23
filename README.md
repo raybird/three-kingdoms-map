@@ -4,6 +4,8 @@
 
 專為三國歷史愛好者設計的互動式時空地圖。本專案將歷史時間軸與地理空間深度結合，以流暢優雅的現代 Web 介面，直觀呈獻東漢末年至三國統一期間（公元 184 年 - 280 年）的重要戰役、政治事件與人物軌跡。
 
+🔗 **線上即時體驗**：[https://raybird.github.io/three-kingdoms-map/](https://raybird.github.io/three-kingdoms-map/)
+
 ---
 
 ## 核心功能特色
