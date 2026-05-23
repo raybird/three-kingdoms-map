@@ -105,4 +105,14 @@ npm run build
 
 ---
 
+## ☕ 贊助專案 (Donate)
+
+如果您喜歡這個專案，歡迎給作者買杯咖啡，您的支持是我們持續維護與擴充資料庫的最大動力！
+
+* 💳 **綠界線上贊助**：[點此贊助我](https://p.ecpay.com.tw/C50D090)
+* 📱 **掃描 QR Code 贊助**：  
+  ![Buy Me a Coffee](docs/buymeacoffee.png)
+
+---
+
 *TeleNexus Studio | Raybird*
