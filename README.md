@@ -6,6 +6,12 @@
 
 🔗 **線上即時體驗**：[https://raybird.github.io/three-kingdoms-map/](https://raybird.github.io/three-kingdoms-map/)
 
+### 截圖展示
+
+| 桌面版 | 行動版 |
+|--------|--------|
+| ![桌面版截圖](docs/demo.png) | ![行動版截圖](docs/demo_mobile.png) |
+
 ---
 
 ## 核心功能特色
@@ -104,6 +110,15 @@ npm start
 ```bash
 npm run build
 ```
+
+---
+
+## 🔗 相關專案 (Related Projects)
+
+| 專案 | 簡介 |
+|------|------|
+| [🗺️ cap-map](https://github.com/raybird/cap-map) | 專為臺灣國中會考社會科設計的互動式時空地圖，結合歷史時間軸與地理空間判讀，幫助學生建立立體史觀與強化地圖判讀能力。 |
+| [⚔️ jymap](https://github.com/raybird/jymap) | 將金庸十五部小說的傳奇故事，交織在同一張互動地圖上，看見江湖隨朝代變遷。 |
 
 ---
 
