@@ -31,7 +31,7 @@ export class EventSidebarComponent implements OnInit, OnDestroy {
   constructor(
     private store: Store<AppState>,
     private quizService: QuizService,
-  ) {}
+  ) { }
 
   ngOnInit(): void {
     this.selectedEvent$ = this.store.select(selectSelectedEvent);
@@ -92,7 +92,7 @@ export class EventSidebarComponent implements OnInit, OnDestroy {
 
   allQuestionsAnswered(): boolean {
     return this.selectedAnswers.length === this.questions.length &&
-           this.selectedAnswers.every(a => a !== null);
+      this.selectedAnswers.every(a => a !== null);
   }
 
   getEventTitle(id: string): string {
@@ -101,7 +101,7 @@ export class EventSidebarComponent implements OnInit, OnDestroy {
 
   getWikiUrl(event: any): string {
     if (event.wikiUrl) return event.wikiUrl;
-    return `https://zh.wikipedia.org/wiki/${encodeURIComponent(event.title)}`;
+    return `https://zh.wikipedia.org/zh-tw/${encodeURIComponent(event.title)}`;
   }
 
   closeSidebar(): void {
