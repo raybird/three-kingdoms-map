@@ -48,6 +48,17 @@
         </div>
       }
 
+      @if (event.relatedFigures?.length) {
+        <div class="section">
+          <h4>關聯人物</h4>
+          <div class="tags">
+            @for (figure of event.relatedFigures; track figure) {
+              <span class="tag figure-tag">{{ figure }}</span>
+            }
+          </div>
+        </div>
+      }
+
       @if (event.factions?.length || event.sourceType || event.historicalSignificance) {
         <div class="section exam-section">
           <h4>歷史考證與勢力</h4>

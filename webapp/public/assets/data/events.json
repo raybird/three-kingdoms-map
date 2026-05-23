@@ -19,12 +19,14 @@
     "relatedEvents": ["dongzhuo-monopolizes"],
     "sourceType": "兩者皆有",
     "factions": ["群雄"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/黃巾之亂",
+    "relatedFigures": ["張角", "張寶", "張梁", "皇甫嵩", "朱儁", "盧植"]
   },
   {
     "id": "dongzhuo-monopolizes",
     "title": "董卓亂政",
-    "description": "大將軍何進被殺後，并州牧董卓引兵入京，廢立皇帝，獨攬朝政，招致天下諸侯反抗。",
+    "description": "大將軍何進被殺後，引并州牧董卓入京，廢立皇帝，獨攬朝政，招致天下諸侯反抗。",
     "date": {
       "start": "0189-08-01",
       "end": "0189-12-31",
@@ -41,7 +43,9 @@
     "relatedEvents": ["huangjin-rebellion", "alliance-against-dong"],
     "sourceType": "兩者皆有",
     "factions": ["群雄"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/董卓討伐戰#董卓專政",
+    "relatedFigures": ["董卓", "何進", "漢獻帝", "袁紹", "曹操", "丁原", "呂布"]
   },
   {
     "id": "alliance-against-dong",
@@ -63,7 +67,9 @@
     "relatedEvents": ["dongzhuo-monopolizes", "luoyang-burned"],
     "sourceType": "兩者皆有",
     "factions": ["群雄"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/董卓討伐戰",
+    "relatedFigures": ["袁紹", "曹操", "孫堅", "公孫瓚", "劉備", "關羽", "張飛", "董卓", "華雄"]
   },
   {
     "id": "luoyang-burned",
@@ -85,7 +91,9 @@
     "relatedEvents": ["alliance-against-dong", "diaochan-beauty-trap"],
     "sourceType": "兩者皆有",
     "factions": ["群雄"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/董卓討伐戰#焚燒洛陽與西遷長安",
+    "relatedFigures": ["董卓", "漢獻帝", "李傕", "郭汜", "曹操"]
   },
   {
     "id": "diaochan-beauty-trap",
@@ -107,7 +115,9 @@
     "relatedEvents": ["luoyang-burned", "sunce-south-yangtze"],
     "sourceType": "演義",
     "factions": ["群雄"],
-    "historicalSignificance": "中"
+    "historicalSignificance": "中",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/董卓#伏誅",
+    "relatedFigures": ["王允", "貂蟬", "呂布", "董卓"]
   },
   {
     "id": "sunce-south-yangtze",
@@ -129,7 +139,9 @@
     "relatedEvents": ["diaochan-beauty-trap", "caocao-controls-emperor"],
     "sourceType": "正史",
     "factions": ["吳"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/孫策平定江東之戰",
+    "relatedFigures": ["孫策", "周瑜", "太史慈", "劉繇", "王朗", "嚴白虎"]
   },
   {
     "id": "caocao-controls-emperor",
@@ -151,7 +163,9 @@
     "relatedEvents": ["sunce-south-yangtze", "drinking-and-heroes"],
     "sourceType": "正史",
     "factions": ["魏"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/挾天子以令諸侯",
+    "relatedFigures": ["曹操", "漢獻帝", "董昭", "楊奉"]
   },
   {
     "id": "drinking-and-heroes",
@@ -173,7 +187,9 @@
     "relatedEvents": ["caocao-controls-emperor", "guandu-battle"],
     "sourceType": "演義",
     "factions": ["魏", "蜀"],
-    "historicalSignificance": "中"
+    "historicalSignificance": "中",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/三國演義",
+    "relatedFigures": ["曹操", "劉備"]
   },
   {
     "id": "guandu-battle",
@@ -195,7 +211,9 @@
     "relatedEvents": ["drinking-and-heroes", "thrice-visiting-cottage"],
     "sourceType": "兩者皆有",
     "factions": ["魏", "群雄"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/官渡之戰",
+    "relatedFigures": ["曹操", "袁紹", "許攸", "荀彧", "張郃", "顏良", "文醜", "關羽"]
   },
   {
     "id": "thrice-visiting-cottage",
@@ -217,7 +235,9 @@
     "relatedEvents": ["guandu-battle", "chibi-battle"],
     "sourceType": "兩者皆有",
     "factions": ["蜀"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/三顧茅廬",
+    "relatedFigures": ["劉備", "諸葛亮", "關羽", "張飛", "徐庶"]
   },
   {
     "id": "chibi-battle",
@@ -239,12 +259,14 @@
     "relatedEvents": ["thrice-visiting-cottage", "liubei-enters-yi"],
     "sourceType": "兩者皆有",
     "factions": ["魏", "蜀", "吳"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/赤壁之戰",
+    "relatedFigures": ["周瑜", "諸葛亮", "曹操", "劉備", "黃蓋", "魯肅", "程普", "曹丕"]
   },
   {
     "id": "jianan-literature",
     "title": "建安文學與鄴下文人集團",
-    "description": "以「三曹」（曹操、曹丕、曹植）與建安七子為代表的文學創作，以鄴城為中心，風格慷慨悲涼，史稱「建安風骨」。",
+    "description": "以「三曹」（曹操、曹丕、曹植）及「建安七子」為代表的文學創作群體在鄴城形成，其作品風格剛健深沉，悲涼慷慨，史稱「建安風骨」，對後世文學產生深遠影響。",
     "date": {
       "start": "0196-01-01",
       "end": "0220-12-31",
@@ -261,7 +283,9 @@
     "relatedEvents": ["caocao-controls-emperor", "caopi-usurps-han"],
     "sourceType": "正史",
     "factions": ["魏"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/建安文學",
+    "relatedFigures": ["曹操", "曹丕", "曹植", "孔融", "王粲", "陳琳"]
   },
   {
     "id": "huatuo-medicine",
@@ -283,7 +307,9 @@
     "relatedEvents": ["chibi-battle"],
     "sourceType": "兩者皆有",
     "factions": ["群雄"],
-    "historicalSignificance": "中"
+    "historicalSignificance": "中",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/華佗",
+    "relatedFigures": ["華佗", "曹操", "關羽", "周泰"]
   },
   {
     "id": "liubei-enters-yi",
@@ -305,7 +331,9 @@
     "relatedEvents": ["chibi-battle", "hanzhong-campaign"],
     "sourceType": "正史",
     "factions": ["蜀"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/益州之戰",
+    "relatedFigures": ["劉備", "劉璋", "龐統", "法正", "黃忠", "張飛", "嚴顏", "諸葛亮"]
   },
   {
     "id": "hanzhong-campaign",
@@ -327,7 +355,9 @@
     "relatedEvents": ["liubei-enters-yi", "guanyu-lost-jingzhou"],
     "sourceType": "正史",
     "factions": ["魏", "蜀"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/漢中之戰",
+    "relatedFigures": ["劉備", "曹操", "黃忠", "夏侯淵", "法正", "張飛", "魏延", "趙雲", "曹洪"]
   },
   {
     "id": "guanyu-lost-jingzhou",
@@ -349,7 +379,9 @@
     "relatedEvents": ["hanzhong-campaign", "caopi-usurps-han"],
     "sourceType": "兩者皆有",
     "factions": ["魏", "蜀", "吳"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/樊城之戰",
+    "relatedFigures": ["關羽", "呂蒙", "陸遜", "曹仁", "徐晃", "糜芳", "潘濬"]
   },
   {
     "id": "caopi-usurps-han",
@@ -371,7 +403,9 @@
     "relatedEvents": ["guanyu-lost-jingzhou", "liubei-declares-emperor"],
     "sourceType": "正史",
     "factions": ["魏"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/曹丕#登基稱帝",
+    "relatedFigures": ["曹丕", "漢獻帝", "華歆", "司馬懿"]
   },
   {
     "id": "liubei-declares-emperor",
@@ -393,7 +427,9 @@
     "relatedEvents": ["caopi-usurps-han", "yiling-battle"],
     "sourceType": "正史",
     "factions": ["蜀"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/劉備#稱帝建蜀",
+    "relatedFigures": ["劉備", "諸葛亮", "許靖", "趙雲"]
   },
   {
     "id": "yiling-battle",
@@ -415,7 +451,9 @@
     "relatedEvents": ["liubei-declares-emperor", "zhugeliang-southern-exped"],
     "sourceType": "兩者皆有",
     "factions": ["蜀", "吳"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/夷陵之戰",
+    "relatedFigures": ["劉備", "陸遜", "趙雲", "黃權", "沙摩柯", "馮習"]
   },
   {
     "id": "zhugeliang-southern-exped",
@@ -437,7 +475,9 @@
     "relatedEvents": ["yiling-battle", "first-northern-expedition"],
     "sourceType": "兩者皆有",
     "factions": ["蜀"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/諸葛亮南征",
+    "relatedFigures": ["諸葛亮", "孟獲", "馬謖"]
   },
   {
     "id": "first-northern-expedition",
@@ -459,7 +499,9 @@
     "relatedEvents": ["zhugeliang-southern-exped", "wuzhangyuan-battle"],
     "sourceType": "兩者皆有",
     "factions": ["魏", "蜀"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/諸葛亮北伐#第一次北伐",
+    "relatedFigures": ["諸葛亮", "馬謖", "魏延", "趙雲", "曹真", "司馬懿", "姜維", "張郃"]
   },
   {
     "id": "majun-inventions",
@@ -481,7 +523,9 @@
     "relatedEvents": ["caopi-usurps-han"],
     "sourceType": "正史",
     "factions": ["魏"],
-    "historicalSignificance": "中"
+    "historicalSignificance": "中",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/馬鈞",
+    "relatedFigures": ["馬鈞", "曹叡", "裴秀"]
   },
   {
     "id": "shiting-battle",
@@ -503,7 +547,9 @@
     "relatedEvents": ["first-northern-expedition", "sunquan-declares-emperor"],
     "sourceType": "正史",
     "factions": ["魏", "吳"],
-    "historicalSignificance": "中"
+    "historicalSignificance": "中",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/石亭之戰",
+    "relatedFigures": ["周魴", "曹休", "陸遜", "賈逵", "朱桓", "全琮"]
   },
   {
     "id": "sunquan-declares-emperor",
@@ -525,7 +571,9 @@
     "relatedEvents": ["shiting-battle"],
     "sourceType": "正史",
     "factions": ["吳"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/孫權#稱帝建國",
+    "relatedFigures": ["孫權", "顧雍", "陸遜", "諸葛瑾"]
   },
   {
     "id": "wuzhangyuan-battle",
@@ -547,7 +595,9 @@
     "relatedEvents": ["first-northern-expedition", "gaoping-tombs-coup"],
     "sourceType": "兩者皆有",
     "factions": ["魏", "蜀"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/五丈原之戰",
+    "relatedFigures": ["諸葛亮", "司馬懿", "姜維", "魏延", "費禕", "楊儀"]
   },
   {
     "id": "gaoping-tombs-coup",
@@ -569,7 +619,9 @@
     "relatedEvents": ["wuzhangyuan-battle", "wei-conquers-shu"],
     "sourceType": "正史",
     "factions": ["魏", "晉"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/高平陵之變",
+    "relatedFigures": ["司馬懿", "曹爽", "曹芳", "司馬師", "司馬昭", "蔣濟", "桓範"]
   },
   {
     "id": "wei-conquers-shu",
@@ -591,7 +643,9 @@
     "relatedEvents": ["gaoping-tombs-coup", "sima-yan-usurps-wei"],
     "sourceType": "正史",
     "factions": ["魏", "蜀"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/魏滅蜀之戰",
+    "relatedFigures": ["鄧艾", "鍾會", "劉禪", "姜維", "諸葛瞻", "鄧忠", "衛瓘"]
   },
   {
     "id": "sima-yan-usurps-wei",
@@ -613,7 +667,9 @@
     "relatedEvents": ["wei-conquers-shu", "jin-conquers-wu"],
     "sourceType": "正史",
     "factions": ["魏", "晉"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/司馬炎#建立西晉",
+    "relatedFigures": ["司馬炎", "曹奐", "賈充", "司馬昭"]
   },
   {
     "id": "jin-conquers-wu",
@@ -635,7 +691,9 @@
     "relatedEvents": ["sima-yan-usurps-wei", "eight-princes-rebellion"],
     "sourceType": "正史",
     "factions": ["吳", "晉"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/晉滅吳之戰",
+    "relatedFigures": ["司馬炎", "王濬", "開國功臣", "孫皓", "張華", "賈充"]
   },
   {
     "id": "eight-princes-rebellion",
@@ -657,7 +715,9 @@
     "relatedEvents": ["jin-conquers-wu"],
     "sourceType": "正史",
     "factions": ["晉"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/八王之亂",
+    "relatedFigures": ["司馬衷", "賈南風", "司馬亮", "司馬瑋", "司馬倫", "司馬冏", "司馬乂", "司馬穎", "司馬顒", "司馬越"]
   },
   {
     "id": "xiapuzhi-battle",
@@ -679,7 +739,9 @@
     "relatedEvents": ["caocao-controls-emperor", "guandu-battle"],
     "sourceType": "兩者皆有",
     "factions": ["魏", "群雄"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/下邳之戰",
+    "relatedFigures": ["呂布", "曹操", "劉備", "陳宮", "高順", "張遼", "宋憲", "魏續"]
   },
   {
     "id": "sunce-assassination",
@@ -701,7 +763,9 @@
     "relatedEvents": ["sunce-south-yangtze", "chibi-battle"],
     "sourceType": "正史",
     "factions": ["吳"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/孫策#遇刺身亡",
+    "relatedFigures": ["孫策", "孫權", "張昭", "周瑜", "許貢"]
   },
   {
     "id": "changbanpo-battle",
@@ -723,7 +787,9 @@
     "relatedEvents": ["thrice-visiting-cottage", "chibi-battle"],
     "sourceType": "兩者皆有",
     "factions": ["魏", "蜀"],
-    "historicalSignificance": "中"
+    "historicalSignificance": "中",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/長坂坡之戰",
+    "relatedFigures": ["趙雲", "張飛", "劉備", "曹操", "曹純", "糜夫人"]
   },
   {
     "id": "tongguan-battle",
@@ -745,7 +811,9 @@
     "relatedEvents": ["chibi-battle", "liubei-enters-yi"],
     "sourceType": "兩者皆有",
     "factions": ["魏", "群雄"],
-    "historicalSignificance": "中"
+    "historicalSignificance": "中",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/潼關之戰_(211年)",
+    "relatedFigures": ["馬超", "曹操", "韓遂", "賈詡", "曹仁", "許褚"]
   },
   {
     "id": "hefei-battle",
@@ -767,7 +835,9 @@
     "relatedEvents": ["liubei-enters-yi", "hanzhong-campaign"],
     "sourceType": "兩者皆有",
     "factions": ["魏", "吳"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/合肥之戰#第二次合肥之戰（逍遙津之役）",
+    "relatedFigures": ["張遼", "孫權", "樂進", "李典", "甘寧", "凌統", "呂蒙"]
   },
   {
     "id": "seven-steps-poem",
@@ -789,7 +859,9 @@
     "relatedEvents": ["caopi-usurps-han"],
     "sourceType": "演義",
     "factions": ["魏"],
-    "historicalSignificance": "中"
+    "historicalSignificance": "中",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/七步詩",
+    "relatedFigures": ["曹植", "曹丕", "卞太后"]
   },
   {
     "id": "zhangfei-death",
@@ -811,7 +883,9 @@
     "relatedEvents": ["liubei-declares-emperor", "yiling-battle"],
     "sourceType": "正史",
     "factions": ["蜀"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/張飛#遇害",
+    "relatedFigures": ["張飛", "劉備", "張達", "範強"]
   },
   {
     "id": "jiangwei-expeditions",
@@ -833,7 +907,9 @@
     "relatedEvents": ["wuzhangyuan-battle", "wei-conquers-shu"],
     "sourceType": "正史",
     "factions": ["魏", "蜀"],
-    "historicalSignificance": "中"
+    "historicalSignificance": "中",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/姜維北伐",
+    "relatedFigures": ["姜維", "鄧艾", "廖化", "陳泰", "郭淮", "夏侯霸"]
   },
   {
     "id": "huainan-three-rebellions",
@@ -855,7 +931,9 @@
     "relatedEvents": ["gaoping-tombs-coup", "wei-conquers-shu"],
     "sourceType": "正史",
     "factions": ["魏", "晉"],
-    "historicalSignificance": "高"
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/淮南三叛",
+    "relatedFigures": ["司馬師", "司馬昭", "毌丘儉", "文欽", "諸葛誕", "王凌", "司馬懿", "文鴦"]
   },
   {
     "id": "dongxing-battle",
@@ -877,6 +955,488 @@
     "relatedEvents": ["huainan-three-rebellions", "wei-conquers-shu"],
     "sourceType": "正史",
     "factions": ["魏", "吳"],
-    "historicalSignificance": "中"
+    "historicalSignificance": "中",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/東興之戰",
+    "relatedFigures": ["丁奉", "諸葛恪", "胡遵", "諸葛誕", "留贊", "桓嘉"]
+  },
+  {
+    "id": "jieqiao-battle",
+    "title": "界橋之戰",
+    "description": "袁紹與公孫瓚為爭奪冀州而在界橋展開會戰，袁紹麾下大將麴義率強弩兵大破公孫瓚的精銳騎兵「白馬義從」，趙雲於此戰中首次登場並營救公孫瓚。",
+    "date": {
+      "start": "0191-11-01",
+      "end": "0192-01-31",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "界橋（今河北威縣）",
+      "coordinates": [37.33, 115.71],
+      "adminDivisions": ["冀州", "鉅鹿郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["強弩破騎", "麴義", "白馬義從", "趙雲登場"],
+    "relatedEvents": ["alliance-against-dong", "xiangyang-sunjian-battle"],
+    "sourceType": "兩者皆有",
+    "factions": ["群雄"],
+    "historicalSignificance": "中",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/界橋之戰",
+    "relatedFigures": ["袁紹", "公孫瓚", "趙雲", "麴義"]
+  },
+  {
+    "id": "xiangyang-sunjian-battle",
+    "title": "孫劉襄陽之戰",
+    "description": "袁術命孫堅進攻荊州劉表，孫堅一路勢如破竹圍攻襄陽，卻在夜間追擊黃祖時，於峴山遭黃祖部下伏兵放暗箭射殺，江東軍被迫撤退。",
+    "date": {
+      "start": "0191-05-01",
+      "end": "0191-11-30",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "襄陽峴山（今湖北襄陽）",
+      "coordinates": [32.01, 112.13],
+      "adminDivisions": ["荊州", "南陽郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["峴山中暗箭", "孫氏奠基", "江東之虎"],
+    "relatedEvents": ["jieqiao-battle", "sunce-south-yangtze"],
+    "sourceType": "兩者皆有",
+    "factions": ["吳", "群雄"],
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/襄阳之战",
+    "relatedFigures": ["孫堅", "劉表", "黃祖", "袁術", "孫策"]
+  },
+  {
+    "id": "puyang-battle",
+    "title": "濮陽之戰",
+    "description": "曹操東征徐州陶謙之際，張邈、陳宮迎立呂布割據兗州。曹操急回兵與呂布在濮陽展開長達百餘日的慘烈混戰，其間曹操曾中伏燒傷手掌，後因大蝗災雙方暫時罷兵。",
+    "date": {
+      "start": "0194-04-01",
+      "end": "0195-05-31",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "濮陽（今河南濮陽）",
+      "coordinates": [35.67, 115.03],
+      "adminDivisions": ["兗州", "東郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["兗州爭奪戰", "火燒曹操", "大蝗災"],
+    "relatedEvents": ["alliance-against-dong", "xiapuzhi-battle"],
+    "sourceType": "正史",
+    "factions": ["魏", "群雄"],
+    "historicalSignificance": "中",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/兖州之战",
+    "relatedFigures": ["曹操", "呂布", "陳宮", "張邈"]
+  },
+  {
+    "id": "wancheng-battle",
+    "title": "宛城之戰",
+    "description": "曹操大軍征討張繡，張繡投降。後曹操納張繡叔父張濟之妻鄒氏，張繡深感羞辱，在賈詡獻計下突然發動叛亂，曹操慘敗，大將典韋、長子曹昂、侄子曹安民皆戰死。",
+    "date": {
+      "start": "0197-01-01",
+      "end": "0197-02-28",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "宛城（今河南南陽）",
+      "coordinates": [33.00, 112.53],
+      "adminDivisions": ["荊州", "南陽郡"]
+    },
+    "categories": ["軍事", "政治"],
+    "keywords": ["典韋守門", "降而復叛", "絕影神駒"],
+    "relatedEvents": ["puyang-battle", "xiapuzhi-battle"],
+    "sourceType": "兩者皆有",
+    "factions": ["魏", "群雄"],
+    "historicalSignificance": "中",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/曹操与张绣的战争",
+    "relatedFigures": ["曹操", "張繡", "賈詡", "曹昂", "典韋"]
+  },
+  {
+    "id": "yijing-battle",
+    "title": "易京之戰",
+    "description": "袁紹與公孫瓚為爭奪北方霸權的決戰。公孫瓚在易京修築高京要塞，挖掘壕溝消極防守，最終袁紹軍利用掘地道戰術震塌城樓，公孫瓚引火自焚，袁紹統一河北。",
+    "date": {
+      "start": "0198-05-01",
+      "end": "0199-03-31",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "易京（今河北雄縣）",
+      "coordinates": [39.14, 116.39],
+      "adminDivisions": ["幽州", "涿郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["易京樓", "地道戰", "統一河北"],
+    "relatedEvents": ["jieqiao-battle", "guandu-battle"],
+    "sourceType": "正史",
+    "factions": ["群雄"],
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/易京之戰",
+    "relatedFigures": ["公孫瓚", "袁紹", "關靖"]
+  },
+  {
+    "id": "baimang-battle",
+    "title": "白馬之戰",
+    "description": "官渡之戰前哨戰。袁紹遣大將顏良圍攻白馬，曹操採用荀攸聲東擊西之計，輕兵掩襲。客將關羽在亂軍中遙見顏良麾蓋，單騎策馬刺良於萬眾之中，遂解白馬之圍。",
+    "date": {
+      "start": "0200-04-01",
+      "end": "0200-05-15",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "白馬（今河南滑縣）",
+      "coordinates": [35.60, 114.50],
+      "adminDivisions": ["司隸校尉部", "東郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["斬顏良", "萬軍取首", "解圍白馬"],
+    "relatedEvents": ["guandu-battle", "yanjin-battle"],
+    "sourceType": "兩者皆有",
+    "factions": ["魏", "群雄", "蜀"],
+    "historicalSignificance": "中",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/白马之战",
+    "relatedFigures": ["曹操", "袁紹", "關羽", "顏良", "張遼"]
+  },
+  {
+    "id": "yanjin-battle",
+    "title": "延津之戰",
+    "description": "曹操解白馬之圍後遷徙居民，袁紹大將文醜率軍追擊。曹操下令棄置輜重馬匹作為誘餌，袁軍爭相搶奪時，曹操率騎兵發起突襲，文醜死於亂軍中（演義中為關羽所斬）。",
+    "date": {
+      "start": "0200-05-16",
+      "end": "0200-06-30",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "延津（今河南延津）",
+      "coordinates": [35.15, 114.20],
+      "adminDivisions": ["兗州", "陳留郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["誘敵深入", "斬文醜", "糧草餌兵"],
+    "relatedEvents": ["baimang-battle", "guandu-battle"],
+    "sourceType": "兩者皆有",
+    "factions": ["魏", "群雄", "蜀"],
+    "historicalSignificance": "中",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/延津之战",
+    "relatedFigures": ["曹操", "袁紹", "文醜", "關羽", "徐晃"]
+  },
+  {
+    "id": "bowangpo-battle",
+    "title": "博望坡之戰",
+    "description": "劉備奉劉表之命北伐攻曹。劉備火燒自家營寨佯裝撤退，誘敵深入。魏將夏侯惇不聽李典勸阻率軍追擊，在博望坡窄路遭劉備伏兵火攻夾擊慘敗，李典救回夏侯惇。",
+    "date": {
+      "start": "0202-09-01",
+      "end": "0202-09-30",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "博望坡（今河南方城）",
+      "coordinates": [33.27, 112.72],
+      "adminDivisions": ["荊州", "南陽郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["博望燒屯", "佯敗設伏", "諸葛亮首功疑案"],
+    "relatedEvents": ["guandu-battle", "thrice-visiting-cottage"],
+    "sourceType": "兩者皆有",
+    "factions": ["魏", "蜀"],
+    "historicalSignificance": "中",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/博望坡之戰",
+    "relatedFigures": ["劉備", "夏侯惇", "于禁", "李典"]
+  },
+  {
+    "id": "xiakou-battle",
+    "title": "夏口之戰",
+    "description": "孫權為報父仇，率水軍大舉進攻江夏黃祖。大將甘寧作爲孫權軍先鋒勇猛突擊，攻破夏口要塞，黃祖兵敗突圍時被騎士所殺，東吳奪取荊州門戶。",
+    "date": {
+      "start": "0208-01-01",
+      "end": "0208-03-31",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "夏口（今湖北武漢）",
+      "coordinates": [30.58, 114.27],
+      "adminDivisions": ["荊州", "江夏郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["報父仇", "斬黃祖", "甘寧先鋒"],
+    "relatedEvents": ["xiangyang-sunjian-battle", "chibi-battle"],
+    "sourceType": "正史",
+    "factions": ["吳", "群雄"],
+    "historicalSignificance": "中",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/江夏之战",
+    "relatedFigures": ["孫權", "黃祖", "甘寧", "開國功臣"]
+  },
+  {
+    "id": "yiling-sun-cao-battle",
+    "title": "孫曹夷陵之戰",
+    "description": "赤壁之戰後，周瑜圍攻南郡曹仁，派遣甘寧襲取上游夷陵。曹仁分兵圍困甘寧，甘寧在城中誓死固守，周瑜派兵馳援合擊，大破曹魏援軍。",
+    "date": {
+      "start": "0208-11-01",
+      "end": "0208-12-31",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "夷陵（今湖北宜昌）",
+      "coordinates": [30.52, 111.43],
+      "adminDivisions": ["荊州", "宜都郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["南郡之戰前哨", "甘寧固守", "夾擊曹軍"],
+    "relatedEvents": ["chibi-battle", "nanjun-campaign"],
+    "sourceType": "正史",
+    "factions": ["魏", "吳"],
+    "historicalSignificance": "中",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/夷陵之战_(208年)",
+    "relatedFigures": ["周瑜", "甘寧", "曹仁", "曹洪"]
+  },
+  {
+    "id": "nanjun-campaign",
+    "title": "南郡攻略戰",
+    "description": "周瑜親率聯軍與曹魏大將曹仁在江陵展開激烈的拉鋸戰。戰況空前慘烈，周瑜曾親自督戰中流矢重傷，激戰經年，曹仁最終棄城撤退，聯軍奪取南郡。",
+    "date": {
+      "start": "0208-12-01",
+      "end": "0209-12-31",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "江陵（今湖北荊州）",
+      "coordinates": [30.35, 112.18],
+      "adminDivisions": ["荊州", "南郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["江陵爭奪戰", "周瑜中箭", "曹仁勇武"],
+    "relatedEvents": ["yiling-sun-cao-battle", "liubei-enters-yi"],
+    "sourceType": "正史",
+    "factions": ["魏", "吳", "蜀"],
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/江陵之战_(208年)",
+    "relatedFigures": ["周瑜", "曹仁", "劉備", "關羽", "徐晃"]
+  },
+  {
+    "id": "wuan-battle",
+    "title": "皖城之戰",
+    "description": "孫權為擴張江淮防線率大軍進攻曹魏皖城，呂蒙獻計「雨水高漲，應速戰速決」，甘寧身先士卒手持鐵鏈攀爬城牆，最終攻破皖城，俘獲魏將朱光。",
+    "date": {
+      "start": "0214-05-01",
+      "end": "0214-06-30",
+      "period": "群雄逐鹿",
+      "periodId": "turbulent-times"
+    },
+    "location": {
+      "name": "皖城（今安徽潛山）",
+      "coordinates": [30.70, 116.53],
+      "adminDivisions": ["揚州", "廬江郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["甘寧爬牆", "呂蒙定計", "江淮防線"],
+    "relatedEvents": ["liubei-enters-yi", "hefei-battle"],
+    "sourceType": "正史",
+    "factions": ["魏", "吳"],
+    "historicalSignificance": "中",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/皖城之战",
+    "relatedFigures": ["孫權", "呂蒙", "甘寧", "朱光"]
+  },
+  {
+    "id": "ergong-struggle",
+    "title": "二宮之爭",
+    "description": "東吳晚期太子孫和與魯王孫霸因奪嫡引發黨爭。朝臣分裂為兩派，孫權對雙方處置不當，導致丞相陸遜憂憤而死，眾多大臣被殺或流放，極大削弱了東吳國力。",
+    "date": {
+      "start": "0242-01-01",
+      "end": "0250-09-30",
+      "period": "三國鼎立",
+      "periodId": "three-kingdoms"
+    },
+    "location": {
+      "name": "建業",
+      "coordinates": [32.04, 118.78],
+      "adminDivisions": ["揚州", "丹陽郡"]
+    },
+    "categories": ["政治"],
+    "keywords": ["奪嫡之爭", "孫權晚年", "陸遜之死", "東吳內耗"],
+    "relatedEvents": ["sunquan-declares-emperor", "gaoping-tombs-coup"],
+    "sourceType": "正史",
+    "factions": ["吳"],
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/二宮之爭",
+    "relatedFigures": ["孫權", "孫和", "孫霸", "陸遜", "步騭"]
+  },
+  {
+    "id": "xingshi-battle",
+    "title": "興勢之戰",
+    "description": "曹魏大將軍曹爽欲立威名，率十萬大軍經秦嶺伐蜀。蜀將王平據險死守興勢山，費禕親率援軍抄捷徑合擊。魏軍後勤斷絕且遭伏擊，慘敗撤退，曹魏元氣大傷。",
+    "date": {
+      "start": "0244-03-01",
+      "end": "0244-05-31",
+      "period": "三國鼎立",
+      "periodId": "three-kingdoms"
+    },
+    "location": {
+      "name": "興勢山（今陝西洋縣）",
+      "coordinates": [33.50, 107.50],
+      "adminDivisions": ["梁州", "漢中郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["曹爽伐蜀", "王平死守", "秦嶺天險", "興勢大捷"],
+    "relatedEvents": ["wuzhangyuan-battle", "gaoping-tombs-coup"],
+    "sourceType": "正史",
+    "factions": ["魏", "蜀"],
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/兴势之战",
+    "relatedFigures": ["曹爽", "費禕", "王平", "郭淮", "司馬昭"]
+  },
+  {
+    "id": "duangu-battle",
+    "title": "段谷之戰",
+    "description": "蜀將姜維出兵北伐，與魏將鄧艾在關隴對峙。姜維約定鎮西將軍胡濟合擊，但胡濟未能按期到達，鄧艾趁機突襲姜維軍，蜀軍在段谷全軍崩潰，姜維被迫上表自貶。",
+    "date": {
+      "start": "0256-06-01",
+      "end": "0256-06-30",
+      "period": "三國鼎立",
+      "periodId": "three-kingdoms"
+    },
+    "location": {
+      "name": "段谷（今甘肅天水）",
+      "coordinates": [34.40, 105.80],
+      "adminDivisions": ["秦州", "天水郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["失期之誤", "鄧艾奇襲", "姜維自貶"],
+    "relatedEvents": ["jiangwei-expeditions", "wei-conquers-shu"],
+    "sourceType": "正史",
+    "factions": ["魏", "蜀"],
+    "historicalSignificance": "中",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/段谷之戰",
+    "relatedFigures": ["姜維", "鄧艾", "胡濟"]
+  },
+  {
+    "id": "shouchun-one-rebellion",
+    "title": "王凌之亂（壽春一叛）",
+    "description": "高平陵之變後，太尉王凌不滿司馬氏專權，暗中圖謀廢黜魏帝曹芳，改立楚王曹彪。司馬懿得知後迅速親率大軍暗中包圍壽春，王凌被迫投降，隨後自殺。",
+    "date": {
+      "start": "0251-01-01",
+      "end": "0251-05-31",
+      "period": "三國鼎立",
+      "periodId": "three-kingdoms"
+    },
+    "location": {
+      "name": "壽春（今安徽壽縣）",
+      "coordinates": [32.58, 116.78],
+      "adminDivisions": ["揚州", "淮南郡"]
+    },
+    "categories": ["軍事", "政治"],
+    "keywords": ["壽春一叛", "司馬懿親征", "曹彪受累"],
+    "relatedEvents": ["gaoping-tombs-coup", "huainan-three-rebellions"],
+    "sourceType": "正史",
+    "factions": ["魏", "晉"],
+    "historicalSignificance": "中",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/王凌之乱",
+    "relatedFigures": ["王凌", "司馬懿", "曹彪"]
+  },
+  {
+    "id": "shouchun-two-rebellion",
+    "title": "毌丘儉文欽之亂（壽春二叛）",
+    "description": "鎮東將軍毌丘儉與揚州刺史文欽因不滿司馬師擅自廢立魏帝，聯合起兵討伐司馬師。文欽子文鴦表現極其勇猛，曾單騎衝擊司馬師大營，司馬師急火攻心眼珠迸出，不久病逝。",
+    "date": {
+      "start": "0255-01-01",
+      "end": "0255-03-31",
+      "period": "三國鼎立",
+      "periodId": "three-kingdoms"
+    },
+    "location": {
+      "name": "壽春（今安徽壽縣）",
+      "coordinates": [32.58, 116.78],
+      "adminDivisions": ["揚州", "淮南郡"]
+    },
+    "categories": ["軍事", "政治"],
+    "keywords": ["壽春二叛", "文鴦勇冠三軍", "司馬師病逝"],
+    "relatedEvents": ["shouchun-one-rebellion", "huainan-three-rebellions"],
+    "sourceType": "兩者皆有",
+    "factions": ["魏", "晉"],
+    "historicalSignificance": "中",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/毌丘俭文钦之乱",
+    "relatedFigures": ["司馬師", "毌丘儉", "文欽", "文鴦"]
+  },
+  {
+    "id": "shouchun-three-rebellion",
+    "title": "諸葛誕之亂（壽春三叛）",
+    "description": "魏征東大將軍諸葛誕為求自保，起兵反抗司馬昭，並派人向東吳求援。東吳派兵馳援，司馬昭則率二十六萬大軍圍困壽春，雙方激戰經年，諸葛誕兵敗被殺，大將于禁降魏後受辱致死。",
+    "date": {
+      "start": "0257-05-01",
+      "end": "0258-03-31",
+      "period": "三國鼎立",
+      "periodId": "three-kingdoms"
+    },
+    "location": {
+      "name": "壽春（今安徽壽縣）",
+      "coordinates": [32.58, 116.78],
+      "adminDivisions": ["揚州", "淮南郡"]
+    },
+    "categories": ["軍事", "政治"],
+    "keywords": ["壽春三叛", "吳魏交鋒", "司馬昭奪權"],
+    "relatedEvents": ["shouchun-two-rebellion", "huainan-three-rebellions"],
+    "sourceType": "正史",
+    "factions": ["魏", "晉", "吳"],
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/壽春之戰",
+    "relatedFigures": ["諸葛誕", "司馬昭", "文欽", "于禁"]
+  },
+  {
+    "id": "xiling-battle",
+    "title": "西陵之戰",
+    "description": "東吳西陵督步闡叛降西晉，晉遣名將羊祜率大軍接應。東吳大都督陸抗沉著指揮，一面築長圍困步闡，一面堰水灌敵，成功擊退羊祜援軍，攻破西陵誅殺步闡全族。",
+    "date": {
+      "start": "0272-08-01",
+      "end": "0272-12-31",
+      "period": "三國鼎立",
+      "periodId": "three-kingdoms"
+    },
+    "location": {
+      "name": "西陵（今湖北宜昌）",
+      "coordinates": [30.70, 111.28],
+      "adminDivisions": ["荊州", "宜都郡"]
+    },
+    "categories": ["軍事"],
+    "keywords": ["陸抗名將", "羊祜退兵", "步闡之亂", "東吳迴光返照"],
+    "relatedEvents": ["wei-conquers-shu", "jin-conquers-wu"],
+    "sourceType": "正史",
+    "factions": ["吳", "晉"],
+    "historicalSignificance": "中",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/西陵之戰",
+    "relatedFigures": ["陸抗", "步闡", "羊祜", "楊肇"]
+  },
+  {
+    "id": "guoma-rebellion",
+    "title": "郭馬之亂",
+    "description": "東吳晚期廣州將領郭馬起兵叛亂，席捲嶺南。東吳大帝孫皓調遣重兵南下平叛，導致江防空虛。西晉司馬炎趁東吳全力平叛、江防不設防之機，發動大規模滅吳之戰。",
+    "date": {
+      "start": "0279-05-01",
+      "end": "0279-11-30",
+      "period": "三國鼎立",
+      "periodId": "three-kingdoms"
+    },
+    "location": {
+      "name": "番禺（今廣東廣州）",
+      "coordinates": [23.13, 113.26],
+      "adminDivisions": ["廣州", "南海郡"]
+    },
+    "categories": ["軍事", "政治"],
+    "keywords": ["嶺南叛亂", "後防空虛", "滅吳契機"],
+    "relatedEvents": ["jin-conquers-wu"],
+    "sourceType": "正史",
+    "factions": ["吳", "晉"],
+    "historicalSignificance": "高",
+    "wikiUrl": "https://zh.wikipedia.org/wiki/郭馬之亂",
+    "relatedFigures": ["郭馬", "孫皓", "滕脩", "陶濬"]
   }
 ]

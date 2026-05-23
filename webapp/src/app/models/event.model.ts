@@ -24,4 +24,5 @@ export interface HistoricalEvent {
   factions: string[];
   historicalSignificance: '高' | '中' | '低';
   wikiUrl?: string;
+  relatedFigures?: string[];
 }
