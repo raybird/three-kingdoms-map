@@ -38,9 +38,16 @@ export class MapContainerComponent implements OnInit, OnDestroy {
   }
 
   private initMap(): void {
+    const southWest = L.latLng(15.0, 75.0);
+    const northEast = L.latLng(55.0, 135.0);
+    const bounds = L.latLngBounds(southWest, northEast);
+
     this.map = L.map('map', {
       zoomControl: false,
-      attributionControl: false
+      attributionControl: false,
+      maxBounds: bounds,
+      maxBoundsViscosity: 1.0,
+      minZoom: 4
     }).setView([34.5, 110.0], 5);
 
     L.control.zoom({ position: 'bottomright' }).addTo(this.map);

@@ -86,6 +86,11 @@ export class TimelineComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   ngAfterViewInit(): void {
+    // 初始計算中間指標所對應的年份
+    setTimeout(() => {
+      this.onScroll();
+    }, 0);
+
     const selectedSub = this.store.select(selectSelectedEvent).pipe(
       filter(event => !!event)
     ).subscribe(event => {
